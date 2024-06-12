@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #E28AC3; /* A lighter, more pleasant background color */
+    margin: 0;
+    padding: 0;
+}
+header, nav, .featureimageblock, .thumbnailimageblock, .imagedescription, .imagecaption {
+    margin-bottom: 20px;
+}
+/* Header Styles */
+.border {
+    color: black;
+    text-align: center;
+    background-color: #87AEDA;
+    margin: 20px;
+    padding: 50px 20px;
+}
+h1, h2 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+/* Navigation Styles */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#008080;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+/* Image Styles */
+.featureimage {
+    display: block;
+    margin: 0 auto 20px;
+    width: 80%;
+}
+.thumbnailimage {
+    width: 100%;
+    height: auto;
+}
+.thumbnailimages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.thumbnailimageblock {
+    flex: 1 1 30%;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.featureimageblock {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Text Styles */
+.featureimagecaption {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.imagecaption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.imagedescription {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+}
+.statusgreen, .statusred, .statusamber {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.statusgreen {
+    color: green;
+}
+.statusred {
+    color: red;
+}
+.statusamber {
+    color: orange;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    margin: 10px 0;
+}
+/* Button Styles */
+button.add-to-collection {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+button.add-to-collection:hover {
+    background-color: #5C8BC0;
+}
+button.view-collection-button {
+    display: block;
+    background-color:#008080;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 20px auto;
+    border{color: white;}
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+button.view-collection-button:hover {
+    background-color: #111;
+}
+.Year-Round{width:100%;height:100px}
