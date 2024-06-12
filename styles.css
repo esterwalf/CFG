@@ -1,0 +1,104 @@
+body {
+    font-family: fantasy, copperplate;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+nav {
+    background-color: turquoise;
+    color: maroon;
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.intro {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden
+}
+ .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10%;
+    align-items: center;
+    z-index: 1; /* Ensure it sits above the video */
+    color:blue;
+    font-size: 20px;
+    -color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */}
+.intro .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.intro .background-video {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    transform: translateX(6%); /* Move the video 10% to the right */
+}
+.intro1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 0px; /* Added margin to create space */
+}
+.season {
+    width: 19%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+}
+.season img {
+    width: 240px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #000;
+}
+.Spring, .Summer, .Autumn, .Winter, .Year-Round {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.SpringButton {
+    background-color: green;
+}
+.SummerButton {
+    background-color: yellow;
+}
+.AutumnButton {
+    background-color: maroon;
+}
+.WinterButton {
+    background-color: white;
+}
+.Year-RoundButton {
+    background-color: orange;
+}
+button:hover {
+background-color: #005F73;
+}
+.href{
+    text-decoration:none
+}
+.hrefSpring, .hrefAutumn, .hrefYearRound{
+    color: white;
+}
+.hrefSummer, .hrefWinter{
+    color: black;
+}

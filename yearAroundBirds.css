@@ -1,0 +1,21 @@
+h1,h2{text-align: center;}
+.featureimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.featureimage,  .thumbnailimage{padding:5px;}
+.thumbnailimages{display:flex;}
+.thumbnailimage{width:100%;height:400px;}
+.thumbnailimageblock{flex:33.3%;padding:10px;}
+.thumbnailimageblock, .featureimageblock{text-align:center}
+.featureimagecaption{font-weight:bold;font-size:30px;}
+.imagecaption{font-size: 25px;font-weight: bold;}
+.imagedescription{font-size: 20px;}
+.notassessed{font-size:20px}
+.statusgreen{font-size:20px;color:green;}
+.statusred{font-size:20px;color:red;}
+.statusamber{font-size:20px;color:orange}
+p{font-size:15px}
+.spring{display:block;width: 100%;}

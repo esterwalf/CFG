@@ -1,0 +1,51 @@
+h1, h2 {
+    text-align: center;
+}
+.featureimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%; /* Adjusted width for better sizing */
+}
+.featureimage,
+.thumbnailimage {
+    padding: 10px; /* Increased padding for better spacing */
+}
+.thumbnailimages {
+    display: flex;
+    flex-wrap: wrap; /* Added flex-wrap for responsive layout */
+    justify-content: center; /* Center aligning thumbnail images */
+}
+.thumbnailimage {
+    width: 90%;
+    height: auto; /* Changed height to auto for maintaining aspect ratio */
+}
+.thumbnailimageblock {
+    flex: 0 0 33.3%; /* Changed flex property for equal distribution */
+    padding: 15px; /* Increased padding for better spacing */
+}
+.thumbnailimageblock,
+.featureimageblock {
+    text-align: center;
+}
+.featureimagecaption {
+    font-weight: bold;
+    font-size: 24px; /* Adjusted font size for better proportion */
+}
+.imagecaption {
+    font-size: 20px; /* Adjusted font size for better proportion */
+    font-weight: bold;
+}
+.imagedescription,
+.notassessed,
+.statusgreen,
+.statusred,
+p {
+    font-size: 16px; /* Adjusted font size for better readability */
+}
+.winter {
+    display: block;
+    width: 100%;
+    max-width: 100%; /* Added max-width for responsiveness */
+    height: auto; /* Changed height to auto for maintaining aspect ratio */
+}
